@@ -41,66 +41,66 @@ const Signup = () => {
   const signUpForm = () => (
     <form>
       <div className="form-group">
-        <TextField
-          fullWidth
-          id="outlined-search"
-          onChange={handleChange("name")}
-          value={name}
-          label="Name"
-          type="text"
-          variant="outlined"
-        />
-        {/* <label className="text-muted">Name</label>
+//         <TextField
+//           fullWidth
+//           id="outlined-search"
+//           onChange={handleChange("name")}
+//           value={name}
+//           label="Name"
+//           type="text"
+//           variant="outlined"
+//         />
+        <label className="text-muted">Name</label>
         <input
           onChange={handleChange("name")}
           type="text"
           className="form-control"
           value={name}
-        /> */}
+        />
       </div>
       <div className="form-group">
-        <TextField
-          fullWidth
-          id="outlined-search"
-          onChange={handleChange("email")}
-          value={email}
-          label="Email"
-          type="email"
-          variant="outlined"
-        />
-        {/* <label className="text-muted">Email</label>
+//         <TextField
+//           fullWidth
+//           id="outlined-search"
+//           onChange={handleChange("email")}
+//           value={email}
+//           label="Email"
+//           type="email"
+//           variant="outlined"
+//         />
+        <label className="text-muted">Email</label>
         <input
           onChange={handleChange("email")}
           type="email"
           className="form-control"
           value={email}
-        /> */}
+        />
       </div>
       <div className="form-group">
-        <TextField
-          fullWidth
-          id="outlined-search"
-          onChange={handleChange("password")}
-          value={password}
-          label="Password"
-          type="password"
-          variant="outlined"
-        />
+//         <TextField
+//           fullWidth
+//           id="outlined-search"
+//           onChange={handleChange("password")}
+//           value={password}
+//           label="Password"
+//           type="password"
+//           variant="outlined"
+//         />
 
-        {/* <label className="text-muted">Password</label>
+        <label className="text-muted">Password</label>
         <input
           onChange={handleChange("password")}
           type="password"
           className="form-control"
           value={password}
-        /> */}
+        />
       </div>
-      <Button onClick={clickSubmit} variant="contained" color="primary">
+//       <Button onClick={clickSubmit} variant="contained" color="primary">
+//         Submit
+//       </Button>
+      <button onClick={clickSubmit} className="btn btn-primary">
         Submit
-      </Button>
-      {/* <button onClick={clickSubmit} className="btn btn-primary">
-        Submit
-      </button> */}
+      </button>
     </form>
   );
 
